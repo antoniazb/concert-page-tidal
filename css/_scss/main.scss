@@ -1,0 +1,30 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_urls.scss';
+@import '_mixins.scss';
+
+$general-margin: 10px;
+
+// Your CSS/SCSS below this line
+
+body {
+  @include linear-gradient($color-stop-1, $color-stop-2);
+  font-family: $body-font;
+  color: $body-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  font-size: $header-size;
+  letter-spacing: 4px;
+  text-shadow: 4px 2px 12px #191005;
+}
+
+.col, .row, p {
+  margin: $general-margin;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+}

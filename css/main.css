@@ -1,0 +1,28 @@
+/* line 10, /Users/antoniabrown/Desktop/wk-09-project-files/web-starter/css/_scss/main.scss */
+body {
+  background: #75614f;
+  background: url("https://www.transparenttextures.com/patterns/black-thread-light.png"), linear-gradient(180deg, #75614f, #493822);
+  font-family: "Abel", Arial, sans-serif;
+  color: #ffffff;
+}
+
+/* line 16, /Users/antoniabrown/Desktop/wk-09-project-files/web-starter/css/_scss/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Manuale", Georgia, serif;
+  font-size: 4em;
+  letter-spacing: 4px;
+  text-shadow: 4px 2px 12px #191005;
+}
+
+/* line 23, /Users/antoniabrown/Desktop/wk-09-project-files/web-starter/css/_scss/main.scss */
+.col, .row, p {
+  margin: 10px;
+  text-align: center;
+}
+
+/* line 28, /Users/antoniabrown/Desktop/wk-09-project-files/web-starter/css/_scss/main.scss */
+img {
+  margin: auto;
+}
+
+/*# sourceMappingURL=../main.map */

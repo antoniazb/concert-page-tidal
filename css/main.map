@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "_scss/main.css",
+	"sources": [
+		"_scss/main.scss",
+		"_scss/_colors.scss",
+		"_scss/_fonts.scss",
+		"_scss/_urls.scss",
+		"_scss/_mixins.scss"
+	],
+	"sourcesContent": [
+		"@import '_colors.scss';\n@import '_fonts.scss';\n@import '_urls.scss';\n@import '_mixins.scss';\n\n$general-margin: 10px;\n\n// Your CSS/SCSS below this line\n\nbody {\n  @include linear-gradient($color-stop-1, $color-stop-2);\n  font-family: $body-font;\n  color: $body-color;\n}\n\nh1, h2, h3, h4, h5, h6 {\n  font-family: $header-font;\n  font-size: $header-size;\n  letter-spacing: 4px;\n  text-shadow: 4px 2px 12px #191005;\n}\n\n.col, .row, p {\n  margin: $general-margin;\n  text-align: center;\n}\n\nimg {\n  margin: auto;\n}\n",
+		"// Color Variables\n\n$color-stop-1: #75614f;\n$color-stop-2: #493822;\n\n$body-color: #ffffff;\n",
+		"// Font Variables\n\n\n$body-font: \"Abel\", Arial, sans-serif;\n$header-font: \"Manuale\", Georgia, serif;\n$header-size: 4em;\n\n\n// @import url('https://fonts.googleapis.com/css?family=Manuale');\n// @import url('https://fonts.googleapis.com/css?family=Abel');\n",
+		"// URL Variables\n\n$background-image: url('https://www.transparenttextures.com/patterns/black-thread-light.png');\n",
+		"\n@mixin linear-gradient($color-stop1, $color-stop2) {\n  background: $color-stop1;\n  background: $background-image, linear-gradient(180deg, $color-stop1, $color-stop2);\n}\n"
+	],
+	"mappings": ";AASA,AAAA,IAAI,CAAC;EIPH,UAAU,EHAG,OAAO;EGCpB,UAAU,EDDO,0EAAG,ECCW,yCAAe;EJQ9C,WAAW,EERD,MAAM,EAAE,KAAK,EAAE,UAAU;EFSnC,KAAK,ECPM,OAAO;CDQnB;;;AAED,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,CAAC;EACrB,WAAW,EEZC,SAAS,EAAE,OAAO,EAAE,KAAK;EFarC,SAAS,EEZG,GAAG;EFaf,cAAc,EAAE,GAAI;EACpB,WAAW,EAAE,oBAAqB;CACnC;;;AAED,AAAA,IAAI,EAAE,AAAA,IAAI,EAAE,AAAA,CAAC,CAAC;EACZ,MAAM,EAlBS,IAAI;EAmBnB,UAAU,EAAE,MAAO;CACpB;;;AAED,AAAA,GAAG,CAAC;EACF,MAAM,EAAE,IAAK;CACd",
+	"names": []
+}
